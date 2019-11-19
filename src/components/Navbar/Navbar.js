@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 import 'bootstrap/dist/css/bootstrap.css';
+import Monthnav from "../Monthnav/Monthnav";
 
 class Navbar extends Component {
     constructor(props) {
@@ -29,11 +30,7 @@ class Navbar extends Component {
                     </ul>
                 </div>
 
-                <div className="monthContainer">
-                    <button className="arrow previous">&#8249;</button>
-                    <span className="month">January</span>
-                    <button className="arrow next">&#8250;</button>
-                </div>
+                <Monthnav />
 
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>

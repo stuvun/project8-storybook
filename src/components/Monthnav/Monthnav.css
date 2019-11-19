@@ -1,4 +1,9 @@
+button:focus {
+    outline: none !important;
+}
+
 .monthContainer {
+    margin: 0 auto;
     width: 200px;
     display: flex;
     flex-direction: row;
@@ -6,17 +11,19 @@
     justify-content: center;
     align-self: center;
 }
+
 .arrow {
+    border-style: none;
     font-size: 30px;
     padding: 0 20px;
     transition: 0.3s ease;
+    background: none;
 }
 
 .previous:hover {
     margin-right: 10px;
     margin-left: -10px;
     transition: 0.3s ease;
-
 }
 
 .next:hover {
