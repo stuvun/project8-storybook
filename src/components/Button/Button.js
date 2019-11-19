@@ -11,6 +11,7 @@ const Button = (props) => {
     return (
         <div className="arrowContainer">
             <button className={ classList }>&#8249;</button>
+            <span>January</span>
             <button className={ classList }>&#8250;</button>
         </div>
     )

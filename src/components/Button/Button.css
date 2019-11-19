@@ -1,23 +1,37 @@
-.arrowContainer {
-    width: 150px;
+.monthContainer {
+    width: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-content: center;
+    align-self: center;
 }
-
-button {
-    background: none;
-    margin: 0 20px;
-    border: none;
+.arrow {
+    font-size: 30px;
     padding: 0 20px;
-    font-size: 40px;
+    transition: 0.3s ease;
 }
 
-button:hover {
-    cursor: pointer;
+.previous:hover {
+    margin-right: 10px;
+    margin-left: -10px;
+    transition: 0.3s ease;
+
 }
 
-button:focus {
+.next:hover {
+    margin-left: 10px;
+    margin-right: -10px;
+    transition: 0.3s ease;
+}
+
+.arrow:focus {
     outline: none;
+}
+
+.month {
+    display: block;
+    font-size: 30px;
+    margin: 0 2vw;
+    transition: 0.3s ease;
 }

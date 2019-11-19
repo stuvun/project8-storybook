@@ -1,9 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
+import Navbar from "./Navbar";
 
-import Navbar from "./Button";
-
-storiesOf("Button", module)
+storiesOf("Navbar", module)
     .add("Default", () => <Navbar
-        type="default"
     />)
