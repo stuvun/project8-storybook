@@ -1,13 +1,7 @@
 import React from "react";
 import "./Monthnav.css";
 
-const Monthnav = (props) => {
-    let classList = ""
-    let types = [ 'default' ]
-
-    if (types.includes(props.type)) {
-        classList += ` button-${ props.type }`
-    }
+const Monthnav = () => {
     return (
         <div className="monthContainer">
             <button className="arrow previous">&#8249;</button>
