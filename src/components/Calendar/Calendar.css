@@ -1,0 +1,9 @@
+.weeksContainer {
+    width: 99vw;
+    height: 88vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}

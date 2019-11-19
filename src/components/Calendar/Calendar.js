@@ -10,6 +10,7 @@ class Calendar extends Component {
         return (
             <div className="calendarContainer">
                 <Navbar />
+                <div className="weeksContainer"></div>
             </div>
         )
     }
