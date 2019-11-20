@@ -1,34 +1,4 @@
-.hamburger-default {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 0.3vw;
-    transition: 0.3s ease;
-}
-
-.burger-default {
-    width: 25px;
-    margin: 3px auto;
-    border: 1px solid black;
-    transition: 0.3s ease;
-}
-
-.hamburger-default:hover, .hamburger-default:hover .burger-default {
-    background: black;
-    border: 1px solid white;
-    transition: 0.3s ease;
-}
-
-.hamburger-default:active, .hamburger-default:active .burger-default {
-    outline-style: none;
-    filter: brightness(90%);
-    transition: 0.3s ease;
-}
-
-.hamburger-primary {
+.hamburger {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,20 +9,20 @@
     transition: 0.3s ease;
 }
 
-.burger-primary {
+.burger {
     width: 25px;
     margin: 3px auto;
     border: 1px solid #33A0FF;
     transition: 0.3s ease;
 }
 
-.hamburger-primary:hover, .hamburger-primary:hover .burger-primary {
+.hamburger:hover, .hamburger:hover .burger {
     background: #33A0FF;
     border: 1px solid white;
     transition: 0.3s ease;
 }
 
-.hamburger-primary:active, .hamburger-primary:active .burger-primary {
+.hamburger:active, .hamburger:active .burger {
     outline-style: none;
     filter: brightness(90%);
     transition: 0.3s ease;

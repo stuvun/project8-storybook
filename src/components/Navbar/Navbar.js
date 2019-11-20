@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Navbar.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import Monthnav from "../Monthnav/Monthnav";
+import Accordion from "../Accordion/Accordion";
 
 class Navbar extends Component {
     constructor(props) {
@@ -15,20 +16,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav class="navbar navbar-light bg-light">
-                <button class="navbar-toggler navbar-expand-sm btn btn-outline-primary my-2 my-sm-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon .navbar-expand"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#" onClick={ e => this.linkHandler(e) }>Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" onClick={ e => this.linkHandler(e) }>Link</a>
-                        </li>
-                    </ul>
-                </div>
+                <Accordion />
 
                 <Monthnav />
 

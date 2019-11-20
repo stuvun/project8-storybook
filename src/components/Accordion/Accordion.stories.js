@@ -7,7 +7,3 @@ storiesOf("Accordion", module)
         type="default"
         label="default"
         />)
-    .add('Primary', () => <Accordion
-        type="primary"
-        label="primary"
-    />)
