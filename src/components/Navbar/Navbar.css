@@ -1,3 +1,7 @@
+.navbar {
+    box-shadow: 0.1vh 0.1vw 0.1vh rgba(190, 190, 190, 0.5)
+}
+
 button:focus {
     outline: none !important;
 }
