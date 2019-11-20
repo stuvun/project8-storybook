@@ -1,0 +1,25 @@
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #33A0FF;
+    border-radius: 0.3vw;
+}
+
+.hamburger:hover {
+    color: #33A0FF;
+}
+
+.burger-default {
+    width: 25px;
+    margin: 3px auto;
+    border: 1px solid black;
+}
+
+.burger-primary {
+    width: 25px;
+    margin: 3px auto;
+    border: 1px solid #33A0FF;
+}
