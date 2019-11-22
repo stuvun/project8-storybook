@@ -7,7 +7,3 @@ storiesOf("Navbar", module)
         type="default"
         label="default"
     />)
-    .add("Primary", () => <Navbar
-        type="primary"
-        label="primary"
-    />)

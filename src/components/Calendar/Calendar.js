@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Calendar.css";
-import Navbar from "../Navbar/Navbar"
+import Navbar from "../Navbar/Navbar";
 
 class Calendar extends Component {
     constructor(props) {
@@ -10,7 +10,8 @@ class Calendar extends Component {
         return (
             <div className="calendarContainer">
                 <Navbar />
-                <div className="weeksContainer"></div>
+                <div className="aside"/>
+                <div className="weeksContainer"/>
             </div>
         )
     }
